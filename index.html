@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="papersData.js" defer></script>
+	<script src="htmlData.js" defer></script>
+	<script src="flaskComm.js" defer></script>
+	<script src="https://unpkg.com/compromise"></script>
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<audio id="bg_music" src="" autoplay></audio>
+	<div id="webBg"></div>
+	<div id="fullContainer">
+		<div id="webContainer" class="aero">
+			<div id="appGrid" class="appGrid"></div>
+			<div id="startMenu" class="inWindow">
+				<div id="profileBar">
+					<div id="profilePicture"></div>
+					<input type="text" id="profileName" value="User">
+				</div>
+				<div id="appBar"></div>
+				<div id="weatherBar">
+					<div id="weatherIcon">
+						<div class="weather-orb">
+							<svg id="weatherSVG" viewBox="0 0 128 128" width="96" height="96"></svg>
+						</div>
+					</div>
+					<div id="weatherTemp">--°</div>
+					<div id="weatherCondition">Loading...</div>
+					<div id="weatherDivider"></div>
+					<div id="weatherSunRow">
+						<div class="sun-item">
+							<span class="sun-label">▲ rise</span>
+							<span id="weatherSunrise">--:--</span>
+						</div>
+						<div class="sun-item">
+							<span class="sun-label">▼ set</span>
+							<span id="weatherSunset">--:--</span>
+						</div>
+					</div>
+				</div>
+				<div id="deviceSettings">
+					<div id="powerOff">Power Off</div>
+					<div id="settingsOpt">Settings
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bottomBar" class="aero">
+			<div class="bottomTab" id="logoIndent"><i>start</i></div>
+			<div id="tabArea"></div>
+			<div class="bottomTab" id="timeIndent"></div>
+		</div>
+	</div>
+</body>
+</html>
