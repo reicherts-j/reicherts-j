@@ -948,6 +948,7 @@ function changeSliderPos(hue) {
 	if (HSLslider) HSLslider.style.left = (340 * hue / 360) + 'px';
 }
 changeSliderPos(themeValues.hue);
+console.log(themeValues);
 
 const music_library = {
 	'butterflies': '(Tsundere Twintails)',
