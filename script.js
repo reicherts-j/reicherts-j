@@ -960,7 +960,6 @@ const music_library = {
 	'aquatic_ambience': 'Scizzie',
 	'number_8_regret': 'Splatoon 2 (Nintendo)',
 	'hyper_diver': 'Splatoon 3 (Nintendo)',
-	'whirlpool_tune': 'Splatoon 3 (Nintendo)',
 	'daisy_circuit': 'Mario Kart Wii (Nintendo)',
 	'lotus_waters': 'Yumme 2kki (Mosenite)',
 	'identification': 'Infinity Frequencies',
