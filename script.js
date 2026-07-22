@@ -313,7 +313,7 @@ function createAppAndWindow(config) {
 	appDiv.innerHTML = `<div id="${iconId || ''}" class="appIcon"></div><div class="appTitle">${title}</div>`;
 	
 	const iconEl = appDiv.querySelector('.appIcon');
-	if (iconId) iconEl.style.backgroundImage = `url(${iconId}.webp), url(${iconId}.png), url(${iconId}.jpg)`;
+	if (iconId) iconEl.style.backgroundImage = `url(assets/${iconId}.webp), url(assets/${iconId}.png), url(assets/${iconId}.jpg)`;
 
 	createWindow(id, title, contentHTML, { className: (id === "FileExplorer" ? "fileExplorerWindow" : id === "papers" ? "papersWindow" : ""), windowLocation: config.windowLocation }, url);
 
@@ -844,7 +844,7 @@ function renderGroupedGrid(data, containerId, isAppGrid) {
 	Object.entries(grouped).forEach(([category, items]) => {
 		const folder = document.createElement("div");
 		folder.className = 'app';
-		folder.innerHTML = `<div class="appIcon" style="background-image:url(${isAppGrid ? 'gameIcon' : 'papersIcon'}.webp),url(${isAppGrid ? 'gameIcon' : 'papersIcon'}.png);"></div><div class="appTitle">${category}</div>`;
+		folder.innerHTML = `<div class="appIcon" style="background-image:url(assets/${isAppGrid ? 'gameIcon' : 'papersIcon'}.webp),url(assets/${isAppGrid ? 'gameIcon' : 'papersIcon'}.png);"></div><div class="appTitle">${category}</div>`;
 		folder.addEventListener('dblclick', () => openFolder(category, items, isAppGrid));
 		document.getElementById(containerId).appendChild(folder);
 	});
@@ -977,6 +977,7 @@ const music_library = {
 	'self_contained_universe': 'OneShot (Nightmargin)',
 	'a_home_for_flowers': 'OMORI Sound Team',
 	'okay,_everyone!': 'Dan Salvato',
+	'palmtree_panic_p_mix': 'SEGA Sound Team',
 	'sans.': 'Undertale (Toby Fox)',
 	'daijoubu!': 'Dan Salvato'
 
