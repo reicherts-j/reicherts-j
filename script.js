@@ -977,7 +977,6 @@ const music_library = {
 	'self_contained_universe': 'OneShot (Nightmargin)',
 	'a_home_for_flowers': 'OMORI Sound Team',
 	'okay,_everyone!': 'Dan Salvato',
-	'palmtree_panic_p_mix': 'SEGA Sound Team',
 	'sans.': 'Undertale (Toby Fox)',
 	'daijoubu!': 'Dan Salvato'
 
