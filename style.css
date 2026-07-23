@@ -386,8 +386,8 @@ background: linear-gradient(180deg,
 	background-color:
 		hsl(var(--hue) var(--saturation) calc(var(--lightness) + 10));
 
-	-webkit-mask: url(noteIcon.png) center/100% no-repeat;
-	mask: url(noteIcon.png) center/100% no-repeat;
+	-webkit-mask: url(assets/noteIcon.png) center/100% no-repeat;
+	mask: url(assets/noteIcon.png) center/100% no-repeat;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 .mp3-cover::before {
