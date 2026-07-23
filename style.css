@@ -278,8 +278,8 @@
 	background-color:
 		hsl(var(--hue) var(--saturation) 40%);
 
-	-webkit-mask: url(refreshIcon.png) center/55% no-repeat;
-	mask: url(refreshIcon.png) center/55% no-repeat;
+	-webkit-mask: url(assets/refreshIcon.png) center/55% no-repeat;
+	mask: url(assets/refreshIcon.png) center/55% no-repeat;
 }
 .refreshing {
 animation: refreshSpin 300ms linear infinite;
@@ -1351,7 +1351,7 @@ p.paperText {
 	cursor: pointer;
 }
 .paperIcon {
-	background-image: url(paperIcon.png);
+	background-image: url(assets/paperIcon.png);
 }
 .title {
 	border-bottom: solid 2px var(--background-color);
