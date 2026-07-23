@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 const themeValues = { hue: 220, saturation: 86, lightness: 48, alpha: 75 };
 const ANIMATION_DURATION = 600;
 const MENU_ANIMATION = 70;
@@ -1114,3 +1115,4 @@ bgMusicEl.addEventListener('play', updatePlayIcon);
 bgMusicEl.addEventListener('pause', updatePlayIcon);
 
 setTrack(Math.floor(Math.random() * trackKeys.length), true);
+});
