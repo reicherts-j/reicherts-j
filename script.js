@@ -960,11 +960,10 @@ const music_library = {
 	'DSi_shop_theme': 'DSi Shop (Nintendo)',
 	'2008_toyota_corolla': '2003 Toyota Corolla',
 	'aquatic_ambience': 'Scizzie',
-	'number_8_regret': 'Splatoon 2 (Nintendo)',
 	'hyper_diver': 'Splatoon 3 (Nintendo)',
 	'daisy_circuit': 'Mario Kart Wii (Nintendo)',
 	'lotus_waters': 'Yumme 2kki (Mosenite)',
-	'identification': 'Infinity Frequencies',
+	'Identification': 'Infinity Frequencies',
 	'inkopolis_square_tutorial': 'Splatoon 2 (Nintendo)',
 	'sunken_scrolls': 'Splatoon 1 (Nintendo)',
 	'sinkopated_backwash': 'Splatoon 3 (Nintendo)',
@@ -979,7 +978,6 @@ const music_library = {
 	'self_contained_universe': 'OneShot (Nightmargin)',
 	'a_home_for_flowers': 'OMORI Sound Team',
 	'okay,_everyone!': 'Dan Salvato',
-	'palmtree_panic_p_mix': 'SEGA Sound Team',
 	'sans.': 'Undertale (Toby Fox)',
 	'daijoubu!': 'Dan Salvato'
 
