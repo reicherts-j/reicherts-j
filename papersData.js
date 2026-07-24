@@ -542,8 +542,8 @@ citations: ``
 Number of replies: 9
 
 To keep the individuals that participated in the forum largely anonymous, I have removed their last names.
-
-
+<br>
+<br>
 Similar to last week's forum, I should like to state that I am not a very religious person. This does not lay valid grounding to be dishonest, of course, so I will approach these questions with my true position.
 
 I. Is there a God? If so, what is this God like?
@@ -675,5 +675,82 @@ For point III: yes, precisely. I am arguing that humans give themselves their ow
 As for value, I should clarify that I am a secular moral realist, which is to say I hold that moral facts are objective, not decreed by a deity, but grounded in the kinds of creatures we are, in what we demonstrably require in order to flourish, and in the structure of rational agency itself. This matters for the question of purpose: while I grant that purpose, at the individual level, is self-constructed, it does not follow that all purposes are equally valid or that the construction is unconstrained. A person who constructs a purpose around cruelty or domination has not simply made a different choice; they have made the incorrect one, and incorrectly in a sense that is not merely my preference but a fact about human flourishing and, most importantly, agency. Purpose, in other words, can be self-assigned and still be evaluated, judged virtuous or not, useful or harmful, and oriented toward genuine flourishing or away from it; the subjectivity of its origin does not collapse into the relativism of its content. My purposes, knowledge, and human flourishing are not arbitrary because I chose them; they are chosen precisely because they align with what moral reality, examined by any honest individual, including you, I would like to assume, seems to demand. If you would like to inquire about how I defend my ethical position, ask me in a reply.
 
 Thank you.`
+    },
+    {
+        category: `School`,
+        title: `Week 14: Jury Verdict for Mock Trial`,
+        content: `State of Minnesota v. David James Jackson 
+
+I. VERDICT 
+
+The members of the jury designated as Group 6 have reviewed all case documents, supplemental reports, witness transcripts, and applicable Minnesota statutes and find the defendant, David James Jackson, guilty of the following charges: 
+
+Count I: Attempted Murder—2nd Degree—With Intent-Not Premeditated §609.19 subd. 1(1); 609.17 subd. 4(2) 
+
+Count II: Assault-1st Degree-Great Bodily Harm §609.221 subd. 1 
+
+Count III: Assault-2nd Degree-Dangerous Weapon §609.222 subd. 1 
+
+II. APPLICABLE LAW 
+
+Count I—Attempted Murder, 2nd Degree: Under Minn. Stat. §609.19, subd. 1(1), a person commits second-degree murder when they cause the death of a human being with intent to effect that death but without premeditation. Attempt liability attaches under Minn. Stat. §609.17, subd. 4(2) when the defendant takes a substantial step toward commission of the offense. 
+
+Count II—Assault, 1st Degree: Under Minn. Stat. §609.221, subd. 1, a person commits first-degree assault when they assault another and inflict great bodily harm. Great bodily harm is defined as bodily injury that creates a high probability of death, causes serious permanent disfigurement, or causes a permanent or protracted loss or impairment of the function of any bodily member or organ. 
+
+Count III—Assault, 2nd Degree: Under Minn. Stat. §609.222, subd. 1, a person commits second-degree assault when they assault another with a dangerous weapon. A knife constitutes a dangerous weapon under Minnesota law. 
+
+Intent, as defined by Minn. Stat. §609.02, subd. 9, does not require an express statement of purpose to kill. A person acts with intent when they act with the purpose to produce a result or when they act knowing that the result is practically certain to follow from their conduct. The defendant’s statement, that the stabbing “was an accident and wasn’t intentional” (p. 16), is legally insufficient to negate this standard when the surrounding physical conduct demonstrates deliberate, repeated action performed by a rational actor (this could be contested given the presence of drugs, though it isn’t clear whether David himself was using them). 
+
+Premeditation is not required for Count I, and its absence is precisely why this jury determined that second-degree, rather than first-degree, murder is the controlling offense. 
+
+III. FINDINGS OF FACT 
+
+The jury makes the following findings based on the totality of evidence presented: 
+
+A.     The Attack Was Not a Single, Isolated Act 
+
+The defendant did not stab the victim once and stop. The evidence suggests a two-stage attack occurring across two separate rooms. The defendant first stabbed Jason Jackson in the hallway. When Jason fled to the kitchen in an attempt to escape, the defendant pursued him and stabbed him again twice in the side. The deliberate decision to chase the victim into a second room and continue the attack is inconsistent with any claim of accident, panic, or loss of control. It is consistent with purposeful conduct to cause death. 
+
+B.     Intent Is Established by Conduct, Not by Statement 
+
+The defendant claims the stabbing was accidental. The jury rejects that characterization as a matter of law and fact. Under the statutory definition of intent, a person who stabs another individual multiple times in the torso with a large-bladed knife either intends to cause death or knows that death is practically certain to follow. Either horn independently impales the legitimacy of the defendant’s claim. No reasonable individual would stab another human three times and claim ignorance of the lethal potential of those actions. 
+
+C.     The Victim Was Not a Threat at the Time of the Second Stabbing 
+
+Witness Dustin Nelson testified that he had physically restrained Jason Jackson and was pulling him back at the moment the defendant delivered the second series of stab wounds. Jason was not an aggressor at that moment. As Dustin stated explicitly: “He had no reason to stab him. Because I already had him controlled” (p. 59). The defendant’s continued attack under those circumstances eliminates any colorable claim of self-defense and further establishes that the conduct was deliberate. 
+
+D.     The Wounds Evidence Life Threatening, Intentional Force 
+
+Officer Carter’s report documents stab wounds nearly 1.25 inches wide, appearing to penetrate deep beneath the skin. Deputy Meyers, drawing on his training, observed visible arterial bleeding and air bubbles in the chest wound, findings consistent with a punctured lung. Dustin Nelson stated the victim sustained three total wounds. The victim required emergency surgery and subsequent air transport to North Memorial Medical Center. These injuries are consistent with forceful and directed use of a deadly weapon against vital areas of the human body. 
+
+E.      Post-Attack Conduct Demonstrates Consciousness of Guilt 
+
+Following the attack, the defendant did not call emergency services; he did not render aid to his brother. He left the scene in a vehicle, relocated to multiple residences in an apparent effort to evade law enforcement, and ultimately had to be forcibly removed and placed under arrest. This behavior reflects the response of a person who understood the criminality of what they had done and sought to avoid accountability. 
+
+F.      The Defendant Carried the Knife in Advance 
+
+Jason Jackson’s hospital statement confirms that the defendant produced the knife from his back pocket during the confrontation. The knife was not retrieved from the scene opportunistically; it was on the defendant’s person when he arrived. While this jury does not find this alone sufficient to establish premeditation for first-degree purposes, it constitutes a substantial step toward the commission of murder and undermines any assertion that the use of the weapon was purely reactive or accidental. 
+
+IV. WITNESS AND EVIDENCE CREDIBILITY ASSESSMENTS 
+
+Most credible witness: Dustin Nelson was the only witness physically present and actively involved during both stages of the attack. His account was consistent across his written statement and recorded transcript, corroborated by the blood pattern evidence and wound locations, and delivered without apparent partisan motive, as he is the father of both the defendant and the victim. His testimony established the sequence of events, confirmed Jason’s attempt to flee, confirmed he had physical control of Jason at the moment of the second stabbing, and directly contradicted the defendant’s claim of accident. 
+
+Most credible evidence: Deputy Meyers’ documentation of arterial bleeding and visible air bubbles in the chest wound constitutes the most objective and reliable piece of physical evidence in this case. These observations corroborate the severity and anatomical location of the wounds and eliminate any argument that the inflicted injuries were minor. 
+
+Least Credible: Eric Hanson did not witness the stabbing. His recorded statement contains substantial inaudible and unintelligible portions, is inconsistent, and was given under apparent duress. He was also the original subject of the property dispute that precipitated the confrontation, introducing a potential motive for a skewed or incomplete account. His testimony has been accorded minimal weight in this deliberation. 
+
+It is worth noting that, typically, the defendant is not considered a witness. 
+
+V. HOW THIS JURY REACHED CONSENSUS 
+
+This jury initially contained divergent views on the appropriate charge. One member argued the evidence did not support attempted murder due to uncertainty about the intent element. Following a review of Minn. Stat. §609.02, subd. 9, and a re-examination of Dustin Nelson’s account (specifically the defendant’s pursuit of the victim into the kitchen and continued stabbing while Jason was physically restrained), that member reconsidered and concurred in the attempted murder charge. Consensus was ultimately reached through review and discussion. 
+
+VI. CONCLUSION 
+
+The evidence in this case, taken in its totality, confirms beyond a reasonable doubt that David James Jackson acted with intent to cause the death of Jason Jackson, took substantial steps toward accomplishing that result, inflicted great bodily harm, and did so with a dangerous weapon. The charges of Attempted Murder—2nd Degree (§609.19 subd. 1(1); §609.17 subd. 4(2)), Assault—1st Degree—Great Bodily Harm (§609.221 subd. 1), and Assault—2nd Degree—Dangerous Weapon (§609.222 subd. 1) are each supported by the provided physical evidence, eyewitness testimony of Dustin Nelson, the medical findings of Deputy Meyers, and the post-incident conduct of the defendant. 
+
+This jury so finds, unanimously. 
+
+Written on behalf of Group 6: Jackson Reicherts, Violet, and Zackary.`
     }
 ]
