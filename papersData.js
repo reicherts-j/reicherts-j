@@ -534,5 +534,146 @@ Notes
 31.	Franco Moretti, Distant Reading (London: Verso, 2013), 43–62.
 `,
 citations: ``
+    },
+    {
+        category: `School`,
+        title: `Agnosticism and Neurobiological Grounding`,
+        content: `by Jackson Reicherts - Wednesday, June 3, 2026, 11:41 AM
+Number of replies: 9
+
+To keep the individuals that participated in the forum largely anonymous, I have removed their last names.
+
+
+Similar to last week's forum, I should like to state that I am not a very religious person. This does not lay valid grounding to be dishonest, of course, so I will approach these questions with my true position.
+
+I. Is there a God? If so, what is this God like?
+
+I believe God does not exist. Consider: omnipotent + omnipresent + creator of time. These combined attributes collapse the structure they are meant to support quite quickly. I find: God created time without time, meaning He must necessarily be outside of time; to be omnipresent is to exist within time; to be omnipotent, He must have created time. One, literally, cannot do both. Having established this, I still consider myself agnostic [Greek agnostos: a-, "not" + gnostos, "known"]; the question remains open, but reason, mere human reason, the fallible kind, has led me to disbelief.
+
+II. What does it mean to be a human being?  How are we similar to animals?  Different from animals?  What is our relationship to God?  To one another?
+
+To be a human being is to be, at the most fundamental, unromantic level, Homo sapiens: one node in a lineage that runs as follows: hominin divergence (7-4 mya) -> emergence of the Homo genus (2.8-1.8 mya) -> Homo heidelbergensis, Homo neanderthalensis (Middle Pleistocene, ~600,000-300,000 ya) -> anatomically modern humans (~300,000 ya). We are animals [animalia, from anima: "breath," "soul," "life"] -> multicellular, eukaryotic, heterotrophic--indistinguishable from other fauna in our basic metabolic humiliation. What separates us primarily is the thalamocortical network: the dense, improbable conversation between thalamus and cerebral cortex, amplified by an atypically large neocortex and prefrontal lobe, which together are thought to produce the recursive phenomenon of consciousness. (For a rigorous treatment of how this may have emerged through evolutionary pressure, see Hobson et al. in Progress in Brain Research, a synthesis I find relevant.) As for our relation to one another, we are social not by sentiment but by neurobiology, by the same evolutionary logic that made the hive and the pack before us.
+
+III. What is our purpose for living as humans?
+
+Objectively, I believe humans have no purpose. Camus understood this: the boulder returns, the temple falls, whatever civilization we erect from the stones will, given time, either collapse and be rebuilt (restarting the cycle, which itself has no terminal point) or collapse and stop all together, which is simply the longer version of stopping. And yet, I believe my purpose is to pursue knowledge and to facilitate human flourishing and positivity. It is my conviction, attainable, reasonable, and purposeful.
+
+IV & V. What hinders us as humans from achieving our purpose? & Is there any way we can overcome those hindrances?
+
+I believe the primary hindrance is ignorance, not the simple ignorance of not-yet-knowing, but the structural kind: dogma, tribalism, the inherited comfort of unexamined belief. I believe that the hindrance is not inescapable: education, honest discourse, and intellectual humility [humilitas, from humilis: "grounded," "of the earth," and is it not interesting that to be humble is, etymologically, to be close to the ground?]: these are imperfect instruments, but they are ours. The examined life remains the only life worth the name.
+
+In reply to Jackson Reicherts
+
+by Janet - Wednesday, June 3, 2026, 12:03 PM
+
+Hello Jackson,
+
+Thank you for sharing your perspective. I appreciate the honesty and thoughtfulness you brought to your post. Even though my beliefs are different, I respect the way you carefully explained your reasoning and engaged with these questions.
+
+I believe that God exists and desires a relationship with humanity, while you approach these questions from a different viewpoint. However, I found some common ground in your emphasis on seeking truth, gaining knowledge, and promoting human flourishing. I also value intellectual humility and believe it is important to remain open to learning and meaningful discussion.
+
+Your explanation of what it means to be human was interesting to read. While I believe humans are uniquely created in the image of God and therefore possess inherent dignity and purpose, I appreciate your focus on our shared humanity and our responsibility to live well with one another.
+
+What stood out to me most was your commitment to thoughtful dialogue and careful examination of beliefs. Although we arrive at different conclusions, I think respectful conversations like this are valuable because they help us better understand both our own views and those of others.
+
+In reply to Jackson Reicherts
+
+by Damien - Thursday, June 4, 2026, 5:54 PM
+
+Hi Jackson! I found your post very interesting to read through, especially in light of previous discussion forums. I do not mean to attack your beliefs, but provide some food for thought on at least one of your arguments. On your first point, God being both omnipotent and omnipresent is not actually contradictory, although it is difficult to understand. The two concepts are actually complementary because God can only be present in time if there is time. In addition, God's omnipresence does not limit His existence. To be omnipresent is to be unbound to any restrictions of time or space. Thus, God exists in everything and fluidly moves through time and space in an infinite manner. I do want to say that these truths are very difficult to understand and no human mind can completely grasp and understand them, which is why it requires faith to believe such substantial claims. Thus, if you are contemplating the existence of a god, I would start with fundamental scientific truths that undoubtedly lead to the existence of a creator. I recommend the works Aristotle and Thomas Aquinas as they provide simple and logical arguments for God's existence. In fact, in many of Aquinas's works, such as the Summa Theologica, he states a truth and then walks through the greatest counterarguments, picking them apart. Great job on your post, and I am excited read more of your posts in the next few weeks.
+
+In reply to Damien Smith
+
+by Jackson Reicherts - Thursday, June 4, 2026, 9:26 PM
+
+Damien,
+
+I respect your position and reply and thus would like to write an equally respectful reply sharing my counterargument to the claim you make. I was perhaps too compressed on the addressed argument, and I should like now to unfold it more carefully, for the contradiction I have in mind is not between omnipotence and omnipresence as such, but deeper: it is within the very notion of a timeless being performing any act whatsoever, let alone the act of creating time itself.
+
+Consider, if you may, what it means to create something. To create is to bring about a change of state, from non-existence to existence, from absence to presence. But here is what I take to be, at the least, absurdity, and at the most, a direct contradiction: change requires sequence, and sequence is time. This claim regards the logical structure of change, not God specifically, though it is related to God in a theological sense: if there is a state S1 in which time does not exist and a state S2 in which time does exist, then the transition from S1 to S2 is itself a sequence, a "before" and an "after," which is to say, it is necessarily already time. In discussing a transition from no time to time, the transition presupposes the very thing it is supposed to produce. Here is a syllogism:
+
+P1: To change any state of affairs requires a temporal sequence (a before and an after).
+
+P2: The creation of time is a change of state, from time's absence to time's presence.
+
+C: Ergo, the creation of time requires time and is thus impossible for any being, however powerful.
+
+This conclusion does not impugn omnipotence in rendering God not powerful enough; I am positing the proposition "creating time" is structurally incoherent.
+
+P1 may be the contested premise. A scrupulous individual may counter with simultaneous or non-sequential causation: that God's creative act does not precede its effect but is co-instantaneous with it, effectively collapsing the before-and-after premise I rely upon. I will not currently address this counterargument, though if you would like me to cover it, be sure to ask in a reply.
+
+Now, I suspect the response you or another may offer is that God is atemporal, outside of time, not subject to its conditions, existing in what Boethius called the nunc stans, the eternal now. I find this an elegant phrase and an empty one, for if God is truly atemporal, if He exists in a mode utterly without sequence or succession, then He cannot act in any sense, because action, too, is sequential: to deliberate, to will, to speak fiat lux, these are events with a structure of before and after; a timeless being is, by that very definition, a being in whom nothing ever happens, nothing ever changes, nothing is ever instantiated/initiated, etc., etc. Such a being cannot create, cannot sustain, cannot know what day it is, for "what day it is" is precisely a temporal fact, and a being outside of time has no privileged access to it.
+
+But I anticipate a further move: very well, perhaps God is not atemporal, as there are many problems with that, I suppose. Perhaps He does exist within time. This escapes the first horn of the dilemma, but it impales itself upon the second, and the wounds here do not fall short of fatal:
+
+If God is temporal, then, if He exists within time, then time is not His creation. It is, at minimum, the condition of His existence, the medium in which He operates. One cannot be subject to a thing and simultaneously its author, at least not without an infinite regress: if God is within time and created time, then what was He within when He created it? That prior time, of course, is uncreated, which concedes the very point. More simply: a temporal God implies that time coexists alongside God, or even precedes His creative acts, and either conclusion removes time from the list of God's creations. The consequences do not stop here.
+
+Classical theism, and this is most explicit in Aquinas and before him in the Neoplatonic tradition, posits that God is immutable: He does not and cannot change; however, temporal existence is, by definition, successive, is it not? To exist in time is to be at one moment and then another, which is itself a form of alteration. A temporal God is a changing God, and a changing God is not the God of the tradition you are citing, not the actus purus of Aquinas, the pure act in whom there is no potentiality, no before and after, no becoming. You cannot have it both ways: a God who acts in time, responds to prayer in time, and creates within time is not the God of divine immutability and simplicity. I am well aware that certain theologians, Craig being perhaps the most prominent contemporary example, have attempted to occupy both positions simultaneously: God is atemporal without creation and temporal with it, entering time through the very act of creating the universe. Consider what this synthesis requires: a transition from the atemporal mode to the temporal one. Does this sound familiar? A transition is itself an event, a change of state, and we are back where we started; change requires sequence, sequences are time, and the move from "atemporal God" to "temporal God" is the kind of before-and-after event that a truly atemporal being cannot undergo. The dilemma thus stands: God is either atemporal, in which case He cannot act or create, or He is temporal, in which case time is not His creation. There is no middle ground.
+
+Lastly, on your note of Aquinas, I am quite familiar with this thinker. While his work is no doubt that of a formidable intellect, I find his dependency on divine simplicity and atemporality doctrines to be untenable.
+
+In reply to Jackson Reicherts
+
+by Arianna - Friday, June 5, 2026, 7:58 AM
+
+Hi Jackson, thanks for sharing your worldview honestly. We have very different views, as I believe that God does exist, has made us different than other living beings by making us in His Image, wants to have a relationship with us, and has given us a purpose - to share the Gospel and the love of Christ, which can be hindered by sin but aided by submission to the Holy Spirit. Your worldview seems to be centered upon your first statement - that you believe God does not exist, as He can't have created time and yet exist within it. However, what are your thoughts on the possibility that He was outside of time when He created it, and then directly after its creation chose to exist within it as well? Such as how a child can exist within the "world" that they create with dolls by playing one of the characters, while simultaneously existing in the real world, which is outside of that doll world. Thanks again for sharing your thoughts!
+
+In reply to Arianna
+
+by Jackson Reicherts - Friday, June 5, 2026, 9:04 PM
+
+Arianna,
+
+Thank you for engaging, though I am slightly confused by your point. You posit that it is possible for God to have been outside time before creating it and within after, but this was well-addressed in my post. Here is what I say:
+
+"I am well aware that certain theologians, Craig being perhaps the most prominent contemporary example, have attempted to occupy both positions simultaneously: God is atemporal without creation and temporal with it, entering time through the very act of creating the universe. Consider what this synthesis requires: a transition from the atemporal mode to the temporal one. Does this sound familiar? A transition is itself an event, a change of state, and we are back where we started; change requires sequence, sequences are time, and the move from "atemporal God" to "temporal God" is the kind of before-and-after event that a truly atemporal being cannot undergo. The dilemma thus stands: God is either atemporal, in which case He cannot act or create, or He is temporal, in which case time is not His creation."
+
+If, rather, you meant to indirectly address P1 of my syllogism, then I can expand on that as well. Regardless, if you have any further questions, I will answer them to the best of my ability.
+
+In reply to Jackson Reicherts
+
+by Violet - Friday, June 5, 2026, 4:01 PM
+
+Hi Jackson,
+
+I can understand all of your points and see the effort you put into your post. You seem very dedicated to your studies, and I understand how challenging it can be to comprehend "God" or a "god" as a human. Your points made sense. "How can a god be omniscient and omnipresent if he created space and time?" Well, God is all-powerful, all-knowing, outside of time, and everywhere. This seems bizarre and unbelievable. But when you look at the facts of history, the prophecies that have come true, the things people have seen, the things people can do, black magic, demons, angels, things in this world: really, why wouldn't there be a god? If demons are real, why wouldn't God be? If voodoo dolls work, and witches exist, and sorcery is real, and even dark magic, then the only thing that is not actually real in this world would be God. So, why is God the only thing that is not believed in? Do you think it could be Satan's influence in the world? And if you do not believe in Satan either, then we will switch it to Beelzebub's influence?
+
+In reply to Violet
+
+by Jackson Reicherts - Friday, June 5, 2026, 9:17 PM
+
+Violet,
+
+Fascinating post, and I must say I have given a few of these things some thought myself. Here is my dilemma: granted all of the things you say exist--the magic, demons, and so forth--except God or any other all-powerful deity, how does it follow that God created them, or must necessarily exist because of them? I simply regard these things as unexplained phenomena, which is a categorically different thing from inexplicable ones. Is it not the case that humans attributed bugs, bacteria, and weather to the divine as well, until they did not? The category of "things we cannot yet account for" has been shrinking for roughly four centuries, and I see no principled reason to assume it has reached its floor. Furthermore, what counts as "divine" depends entirely on when and where one is born. The "where" is at least slightly easier to justify, one might argue that different traditions are converging, however imperfectly, on the same underlying reality. But the "when" is the harder problem for me, and I think the more devastating one: a person born in Athens in 450 BC, of equivalent intelligence and sincerity to any modern believer, would have attributed those same unexplained phenomena to Zeus, to Poseidon, to the Fates. And they would have been wrong. On what grounds do we assume the current assignation is correct, when the historical pattern is one of continuous revision and retirement of gods as explanations matured? The burden, I think, lies with the claim, not the skepticism.
+
+Thank you for the engagement.
+
+In reply to Jackson Reicherts
+
+by Sean - Friday, June 5, 2026, 4:53 PM
+
+Hello Jackson, your post for sure is the most unique from the rest of the class. Thank you for your honesty and willingness to enter into academic discourse in an environment that doesn't support your beliefs. While I can't agree with most of your beliefs because they contradict my own, I can appreciate the time and energy you took into explaining your position well. That being said I would like to argue one my points against your own. Primarily your argument as to why God does not exist.
+
+I.
+
+God is not bound to the rules of time like we are, he may have created it but he is not defined by it. Much like if I create a series of code for a project that operates a machine I designed I am not bound by it. Or how a line in a 3d plane can can touch any point on a line in a 2d plane from any direction. Therefore God has the ability to create time but not be bound to it.
+
+III.
+
+I am just curious but are you arguing that humans give themselves their own purpose and because of that their own value? I'm just wondering because you said we have no purpose yet have give yourself your own purpose based off of things you value.
+
+IV.
+
+I can actually agree with you on this last section as ignorance leaves many Christians from the ability to enter deeper into their relationship with God. I also see this ignorance created by the culture of this day in age which has given people the belief that there is no God or they have no need for him.
+
+In reply to Sean
+
+by Jackson Reicherts - Friday, June 5, 2026, 10:42 PM
+
+For point III: yes, precisely. I am arguing that humans give themselves their own purpose. I do not think this is as troubling a concession as it might appear. The distinction I would draw is between objective purpose, purpose written into the structure of the universe, assigned by a creator, and cosmically guaranteed; and subjective purpose, which is purpose constructed by a conscious being aware of its own situation and grounded in morality. I am denying the former and affirming the latter. Camus called this the absurd: the collision between a human being's demand for meaning and the universe's silence on the matter. His response, and mine, is defiance. One imagines Sisyphus happy, not because the boulder stops rolling, but because the act of pushing becomes his own.
+
+As for value, I should clarify that I am a secular moral realist, which is to say I hold that moral facts are objective, not decreed by a deity, but grounded in the kinds of creatures we are, in what we demonstrably require in order to flourish, and in the structure of rational agency itself. This matters for the question of purpose: while I grant that purpose, at the individual level, is self-constructed, it does not follow that all purposes are equally valid or that the construction is unconstrained. A person who constructs a purpose around cruelty or domination has not simply made a different choice; they have made the incorrect one, and incorrectly in a sense that is not merely my preference but a fact about human flourishing and, most importantly, agency. Purpose, in other words, can be self-assigned and still be evaluated, judged virtuous or not, useful or harmful, and oriented toward genuine flourishing or away from it; the subjectivity of its origin does not collapse into the relativism of its content. My purposes, knowledge, and human flourishing are not arbitrary because I chose them; they are chosen precisely because they align with what moral reality, examined by any honest individual, including you, I would like to assume, seems to demand. If you would like to inquire about how I defend my ethical position, ask me in a reply.
+
+Thank you.`
     }
 ]
