@@ -745,7 +745,7 @@ function addToStartMenu(windowId, title) {
 	document.getElementById("appBar").appendChild(entry);
 }
 
-['bioContainer', 'linksContainer', 'papersContainer', 'FileExplorerContainer'].forEach(id => {
+['bioContainer', 'webContainer', 'papersContainer', 'musicContainer'].forEach(id => {
 	const titles = { bioContainer: 'Personal Bio', webContainer: 'Web Browser', papersContainer: 'Essays and Papers', musicContainer: 'Mp3 Player' };
 	addToStartMenu(id, titles[id]);
 });
