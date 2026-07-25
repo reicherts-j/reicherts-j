@@ -1107,5 +1107,11 @@ bgMusicEl.addEventListener('ended', nextTrack);
 bgMusicEl.addEventListener('play', updatePlayIcon);
 bgMusicEl.addEventListener('pause', updatePlayIcon);
 
-setTrack(Math.floor(Math.random() * trackKeys.length), true);
-});
+setTrack(Math.floor(Math.random() * trackKeys.length), false);
+
+function startMusicOnGesture() {
+	attemptPlay();
+}
+document.addEventListener('click', startMusicOnGesture, { once: true });
+document.addEventListener('keydown', startMusicOnGesture, { once: true });
+document.addEventListener('touchstart', startMusicOnGesture, { once: true });
