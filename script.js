@@ -760,7 +760,7 @@ function openFolder(category, items, isAppGrid) {
 	const existing = document.getElementById(winId);
 	if (existing) { restoreWindow(existing); return; }
 
-	const content = `<div class="window-content">${items.map((item, i) => `<div class="app paperEntry" data-idx="${i}"><div class="appIcon paperIcon"></div><div class="paperAppTitle">${item.title}</div></div>`).join('')}</div>`;
+	const content = `<div class="appGrid window-content">${items.map((item, i) => `<div class="app paperEntry" data-idx="${i}"><div class="appIcon paperIcon"></div><div class="paperAppTitle">${item.title}</div></div>`).join('')}</div>`;
 	const win = createWindow(winId.replace('Container', ''), category, content, { className: 'categoryWindow' });
 	openWindow(win);
 	win.querySelectorAll('.paperEntry').forEach(entry => {
