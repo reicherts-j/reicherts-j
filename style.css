@@ -858,8 +858,8 @@ span {
 	background-image: var(--pfp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 7em;
-	height: 7em;
+	width: 5.5em;
+	height: 5.5em;
 	grid-area: pfp;
 	image-rendering: pixelated;
 	border: solid 4px var(--background-color);
@@ -881,15 +881,19 @@ span {
 	border-radius: 0;
 	border-top-left-radius: 2em;
 }
-#primaryBio span {
+#primaryBio span, #secondaryBio span {
 	position: absolute;
-	top: 0;
+	top: 5%;
 	right: 0;
 	bottom: 0;
-	left: 50%;
-	font-size: 5rem;
+	left: 42%;
+	font-size: 4.0rem;
 	white-space: initial;
 	letter-spacing: 0.005rem;
+}
+#secondaryBio span {
+	left: 5%;
+	font-size: 4.5rem;
 }
 #secondaryBio {
 	position: relative;
@@ -1011,10 +1015,11 @@ span {
 	padding: 10px;
 	background-color: hsl(var(--app-hue) var(--saturation) var(--lightness) / var(--alphaPercent));
 	box-sizing: border-box;
-	grid-template-columns: 50% 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr;
 	grid-template-areas:
 		"primary library"
+		"secondary library"
 		"secondary library";
 	overflow: hidden;
 }
