@@ -521,7 +521,7 @@ createAppAndWindow({ id: "bio", title: "Personal Bio", contentHTML: `
 	<div class="libraryDisplayItem"></div>
 	</div>
 	</div>
-</div>`, iconId: "bioIcon", appLocation: "appGrid", windowLocation: "webContainer" });
+</div>`, iconId: "bioIcon", appLocation: "fileExplorerAppGrid", windowLocation: "webContainer" });
 createAppAndWindow({ id: "settings", title: "Settings", contentHTML: `<div id="inSettings" class="inWindow"><p class="title">Device Theme</p><div id="colorExample"><div class="colorExample" id="primaryColor"></div><div class="colorExample" id="secondaryColor"></div></div><div id="HSLbar" class="bar"><div id="HSLslider" class="slider"></div></div><input maxlength="3" value='220' placeholder='220' id='themeInput'></input><p class="title">Translate Essays</p><select id="languageSelect"><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="it">Italiano</option><option value="pt">Português</option><option value="nl">Nederlands</option><option value="pl">Polski</option><option value="ru">Русский</option><option value="ja">日本語</option><option value="zh">中文</option><option value="ko">한국어</option></select></div>`, iconId: null, appLocation: "webBg", windowLocation: "webContainer" });
 const mp3PlayerHTML = `
 <div id ="mp3Window">
