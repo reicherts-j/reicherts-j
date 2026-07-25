@@ -746,7 +746,7 @@ function addToStartMenu(windowId, title) {
 }
 
 ['bioContainer', 'linksContainer', 'papersContainer', 'FileExplorerContainer'].forEach(id => {
-	const titles = { bioContainer: 'Personal Bio', linksContainer: 'Links and Socials', papersContainer: 'Essays and Papers', FileExplorerContainer: 'File Explorer' };
+	const titles = { bioContainer: 'Personal Bio', webContainer: 'Web Browser', papersContainer: 'Essays and Papers', musicContainer: 'Mp3 Player' };
 	addToStartMenu(id, titles[id]);
 });
 
