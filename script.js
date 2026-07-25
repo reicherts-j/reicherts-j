@@ -324,9 +324,6 @@ function createAppAndWindow(config) {
 
 createAppAndWindow({ id: "FileExplorer", title: "File Explorer", contentHTML: `<div id="fileExplorerAppGrid" class="appGrid"></div>`, iconId: "fileExplorerIcon", appLocation: "appGrid", windowLocation: "webContainer" });
 
-const linksProvided = ["https://example.com", "https://codepen.io/false/pen/dPXGEeMJ", "https://essays-and-papers.com/false", "https://socialmedia.com/false"];
-
-createAppAndWindow({ id: "links", title: "Links and Socials", contentHTML: linksProvided.map(l => `<a href="${l}" target="_blank">${l}</a>`).join('<br>'), iconId: "linksIcon", appLocation: "fileExplorerAppGrid", windowLocation: "webContainer" });
 createAppAndWindow({ id: "papers", title: "Essays and Papers", contentHTML: `<div id="papersAppGrid" class="appGrid"></div>`, iconId: "papersIcon", appLocation: "fileExplorerAppGrid", windowLocation: "webContainer" });
 
 createAppAndWindow({ id: "code", title: "Web Browser", contentHTML: `<div style="background: linear-gradient(180deg, var(--background-color), transparent); width:100%;height:100%;"><iframe id="browserIframe"
