@@ -278,8 +278,8 @@
 	background-color:
 		hsl(var(--hue) var(--saturation) 40%);
 
-	-webkit-mask: url(assets/refreshIcon.png) center/55% no-repeat;
-	mask: url(assets/refreshIcon.png) center/55% no-repeat;
+	-webkit-mask: url(refreshIcon.png) center/55% no-repeat;
+	mask: url(refreshIcon.png) center/55% no-repeat;
 }
 .refreshing {
 animation: refreshSpin 300ms linear infinite;
@@ -322,7 +322,7 @@ g{
 	position: relative;
 	height: 100%;
 	box-sizing: border-box;
-	background: linear-gradient(360deg, hsl(var(--app-hue) var(--saturation) var(--lightness) / var(--alphaPercent)), transparent);
+	background: linear-gradient(to bottom, hsl(var(--app-hue) var(--saturation) var(--lightness) / var(--alphaPercent)), transparent);
 }
 .mp3-player {
 	display: flex;
@@ -803,6 +803,16 @@ span {
 	z-index: 2;
 	top: 60px;
 	left: 260px;
+}
+.inLinks{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, hsl(
+		var(--app-hue) var(--saturation) var(--lightness) / var(--alphaPercent)
+	), transparent);
+	position: absolute;
+	padding: 10px;
+	font-size: 26px;
 }
 .appGrid {
 	display: flex;
