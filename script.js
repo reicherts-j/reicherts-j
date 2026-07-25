@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
 const themeValues = { hue: 220, saturation: 86, lightness: 48, alpha: 75 };
 const ANIMATION_DURATION = 600;
 const MENU_ANIMATION = 70;
@@ -324,6 +323,7 @@ function createAppAndWindow(config) {
 
 createAppAndWindow({ id: "FileExplorer", title: "File Explorer", contentHTML: `<div id="fileExplorerAppGrid" class="appGrid"></div>`, iconId: "fileExplorerIcon", appLocation: "appGrid", windowLocation: "webContainer" });
 
+
 createAppAndWindow({ id: "papers", title: "Essays and Papers", contentHTML: `<div id="papersAppGrid" class="appGrid"></div>`, iconId: "papersIcon", appLocation: "fileExplorerAppGrid", windowLocation: "webContainer" });
 
 createAppAndWindow({ id: "code", title: "Web Browser", contentHTML: `<div style="background: linear-gradient(180deg, var(--background-color), transparent); width:100%;height:100%;"><iframe id="browserIframe"
@@ -506,9 +506,9 @@ createAppAndWindow({ id: "bio", title: "Personal Bio", contentHTML: `
 <div id="inBio" class="inWindow">
 	<div id="primaryBio" class="aero">
 	<div id="profileDiv"></div>
-	<span>Primary Primary Primary</span>
+	<span>Jackson D. Reicherts<br>Born August 10th, 2009<br>Graduates High School in June of 2027<br>Personal Email and Phone #:<br>reicherts.j@protonmail.com<br>& +1 507-321-9945</span>
 	</div>
-	<div id="secondaryBio" class="aero">Secondary Secondary Secondary</div>
+	<div id="secondaryBio" class="aero"><span>Halo! Including direct phonetic spellings, I just greeted you in around sixteen, primarily Germanic, Austronesian, and Celtic, languages!<br>I love to read, write, garden, play piano, and speak-out-against/correct mis-/disinformation using fancy-Ciceronian-rhetoric!<br>If you have any further inquiry, be sure to contact me through text or email.</span></div>
 	<div id="bioLibrary">
 	<div id="libraryLabel">Library</div>
 	<div id="contentLabel">Display</div>
@@ -745,8 +745,8 @@ function addToStartMenu(windowId, title) {
 	document.getElementById("appBar").appendChild(entry);
 }
 
-['bioContainer', 'webContainer', 'papersContainer', 'musicContainer'].forEach(id => {
-	const titles = { bioContainer: 'Personal Bio', webContainer: 'Web Browser', papersContainer: 'Essays and Papers', musicContainer: 'Mp3 Player' };
+['bioContainer', 'linksContainer', 'papersContainer', 'FileExplorerContainer'].forEach(id => {
+	const titles = { bioContainer: 'Personal Bio', linksContainer: 'Links and Socials', papersContainer: 'Essays and Papers', FileExplorerContainer: 'File Explorer' };
 	addToStartMenu(id, titles[id]);
 });
 
@@ -849,7 +849,7 @@ function renderGroupedGrid(data, containerId, isAppGrid) {
 }
 
 document.getElementById("bioApp").addEventListener('dblclick', () => {
-	createLibraryContent('fav. philosophers', `Though his work wasn't anything groundbeaking or too original, Marcus Cicero is my favorite philosopher.<br>
+	createLibraryContent('fav. philosophers', `Though not especially original as a philosopher, Marcus Tullius Cicero remains my favorite.<br>
 		The rest are as follows (top 5):<br>
 		2. Peter Wessel Zapffe,<br>
 		3. Giacomo Leopardi,<br>
@@ -857,12 +857,20 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		5. Arthur Schopenhauer.<br>
 		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy some German pessimism; whether I would consider myself a pessimist is a different question.`
 	);
-	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the <i>megalos</i> magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, will forever be my favorite piece of literature. Following behind it are the following (top 5):<br>
-		Infinite Jest,<br>
-		Death Note,<br>
-		The Iliad,<br>
-		and anything written by Dante Alighieri.<br>
-		I have written short pieces on <i>House of Leaves</i> and <i>Death Note</i>, though they are already quite dated, so I may rewrite them. Very soon I would like to work on an <i>Infinite Jest</i> piece, but that would be a process spanning at least six months.`)
+	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the megalos magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, is my current favorite piece of literature. Following are (top 3):<br>
+		Infinite Jest<br>
+		and Death Note.<br>
+		I have written short pieces on <i>House of Leaves</i> and <i>Death Note</i>, though they are already quite dated, so I may rewrite them. Very soon I would like to work on an <i>Infinite Jest</i> piece, but that would be a project constituting minimally six months.<br>I have limited the list to only three because (1) I would like to exclude philosophy from this list and (2) distinguishing favorites after these few is very difficult: e.g., I love the Divine Comedy series, but do I really like it more than The Iliad? It also feels too conformist to place classic literature in a Top-Ten-List (along with Orwell, for some reason; almost as if pronouncing "I like Orwell" somehow defeats the purpose of liking Orwell).`
+	);
+	createLibraryContent('fav. plants', `Recently, I have picked up gardening as a new hobby, and it has been quite fulfilling. I still have much to learn and am perhaps more of a greenhorn than green-thumbed. Clean-green puns aside, my favorite plants are as follows (top 5):<br>
+		Venus Fly Traps,<br>
+		Spider Plants,<br>
+		Basil,<br>
+		Weeping Willow Trees,<br>
+		and Lilies of the Valley.<br>
+		Apart from the distinctiveness of Venus Fly Traps--e.g., they are carnivorous!--they were my first houseplant.<br>
+		This list is hardly definitive, however, as nearly any native species of flower to Minnesota is guaranteed to be a favorite of mine.`
+	);
 });
 
 
@@ -946,7 +954,6 @@ function changeSliderPos(hue) {
 	if (HSLslider) HSLslider.style.left = (340 * hue / 360) + 'px';
 }
 changeSliderPos(themeValues.hue);
-console.log(themeValues);
 
 const music_library = {
 	'new_look': 'Wii U Mii Maker (Nintendo)',
