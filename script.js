@@ -749,7 +749,7 @@ function addToStartMenu(windowId, title) {
 	addToStartMenu(id, titles[id]);
 });
 
-powerOff.addEventListener('click', () => { fullContainer.classList.add('windowClosed'); });
+powerOff.addEventListener('click', () => { fullContainer.classList.add('windowClosed'); setTimeout((x)=>{fullContainer.remove()},ANIMATION_DURATION);});
 
 function openFolder(category, items, isAppGrid) {
 	const winId = `${isAppGrid ? 'appCategory' : 'category'}_${category.replace(/\s+/g, '_')}`;
