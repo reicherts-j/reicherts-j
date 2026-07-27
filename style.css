@@ -854,7 +854,6 @@ span {
 	filter: grayscale(0%) brightness(140%);
 	cursor: pointer;
 }
-
 #profileDiv {
 	background-image: var(--pfp);
 	background-repeat: no-repeat;
@@ -892,6 +891,9 @@ span {
 	white-space: initial;
 	letter-spacing: 0.005rem;
 	user-select: text;
+}
+* span::selection {
+	background-color: hsl(var(--hue) var(--saturation) calc(var(--lightness) - 10))
 }
 #secondaryBio span {
 	left: 5%;
@@ -997,6 +999,7 @@ span {
 }
 .libraryDisplayItem p {
 	margin: 0;
+	user-select: text;
 }
 .libraryContentItem {
 	position: relative;
@@ -1030,6 +1033,7 @@ span {
 	padding: 10px;
 	gap: 5px;
 }
+
 .inWindow > div {
 	border: solid 4px var(--background-color);
 	padding: 5px;
