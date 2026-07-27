@@ -858,18 +858,30 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy some German pessimism; whether I would consider myself a pessimist is a different question.`
 	);
 	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the megalos magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, is my current favorite piece of literature. Following are (top 3):<br>
-		Infinite Jest<br>
-		and Death Note.<br>
+		2. Infinite Jest and<br>
+		3. Death Note.<br>
 		I have written short pieces on <i>House of Leaves</i> and <i>Death Note</i>, though they are already quite dated, so I may rewrite them. Very soon I would like to work on an <i>Infinite Jest</i> piece, but that would be a project constituting minimally six months.<br>I have limited the list to only three because (1) I would like to exclude philosophy from this list and (2) distinguishing favorites after these few is very difficult: e.g., I love the Divine Comedy series, but do I really like it more than The Iliad? It also feels too conformist to place classic literature in a Top-Ten-List (along with Orwell, for some reason; almost as if pronouncing "I like Orwell" somehow defeats the purpose of liking Orwell).`
 	);
 	createLibraryContent('fav. plants', `Recently, I have picked up gardening as a new hobby, and it has been quite fulfilling. I still have much to learn and am perhaps more of a greenhorn than green-thumbed. Clean-green puns aside, my favorite plants are as follows (top 5):<br>
 		Venus Fly Traps,<br>
 		Spider Plants,<br>
 		Basil,<br>
-		Weeping Willow Trees,<br>
-		and Lilies of the Valley.<br>
+		Weeping Willow Trees, and<br>
+		Lilies of the Valley.<br>
 		Apart from the distinctiveness of Venus Fly Traps--e.g., they are carnivorous!--they were my first houseplant.<br>
 		This list is hardly definitive, however, as nearly any native species of flower to Minnesota is guaranteed to be a favorite of mine.`
+	);
+	createLibraryContent('fav. words', `I love words! And because of this, I have thought of my Top-Five-Favorite-Words. They are as follows:<br>
+		1. Umwelt,<br>
+		2. Unheimlich,<br>
+		3. Archipelago,<br>
+		4. Lunatic, and<br>
+		5. Ipseity<br>
+		Umwelt is a fantastic word: (1) the bilabial nasal ['m'] -> labiodental fricative ['w' pronounced 'v'] consonantal sound transition is more satisfying than it should be, and (2) it delineates a disturbing theory w/r/t biology and occasionally philosophy: the idea that every living organism is the occupant of a totally mind-dependent environment.<br>
+		Unheimlich is a word practically invented for allegory, and I use it quite often in my less serious academic work to literally represent an echo and/or eeriness (e.g., in my "Abortion and the Etymology of Uncanny," where I answer a short-essay question regarding abortion and use unheimlich to describe the proto-thalamic period of gestation).<br>
+		I may be slightly biased to phonetically blessed words...so Archipelago simply has to be on my Top-Five. But that aside--following the etymology reveals another fun word: Αἰγαῖον πέλαγος (Greek; Aegean Sea) -> Αἰγαῖος (Greek; Aegean) and finally to -> αἶγες (Greek; waves), meaning "waves" and pronounced "aîges."<br>
+		I might write a short essay on the word "Lunatic," but in short, it's mainly because of its etymology chain leading to the Latin word lūnāticus, meaning literally a neurological/mental disorder due to the moon or affected by the phases of the moon.<br>
+		Ipseity...ignoring phonetics...I love this word! Philosophically profound yet literally simple: selfhood, from the Latin ipse, meaning oneself, made into a noun using -ity: the quality or condition of being oneself.`
 	);
 });
 
