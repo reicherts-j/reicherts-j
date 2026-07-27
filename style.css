@@ -995,6 +995,7 @@ span {
 	overflow-y: auto;
 	height: 100%;
 	width: 100%;
+	user-select: text;
 	color: hsl(var(--app-hue) var(--saturation) calc(var(--lightness) + 50) / var(--alphaPercent));
 }
 .libraryDisplayItem p {
