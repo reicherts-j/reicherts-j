@@ -891,6 +891,7 @@ span {
 	font-size: 4.0rem;
 	white-space: initial;
 	letter-spacing: 0.005rem;
+	user-select: text;
 }
 #secondaryBio span {
 	left: 5%;
