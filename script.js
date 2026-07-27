@@ -882,6 +882,7 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		I might write a short essay on the word "Lunatic," but in short, it's mainly because of its etymology chain leading to the Latin word lūnāticus, meaning literally a neurological/mental disorder due to the moon or affected by the phases of the moon.<br>
 		Ipseity...ignoring phonetics...I love this word! Philosophically profound yet literally simple: selfhood, from the Latin ipse, meaning oneself, made into a noun using -ity: the quality or condition of being oneself.`
 	);
+	createLibraryContent('more soon', `These have been fun to write, so I will be adding more in the future, most likely ones for fav.- authors, essays, species of the genus Homo, marine species, country flags, country locations, ancient country flags, etymology chains (not words but specifically the etymology that historizes them), and ancient thinkers.`);
 });
 
 
