@@ -501,24 +501,6 @@ document.querySelectorAll('.forward').forEach(btn =>
 		window.navigateBrowser(url, false);
 	})
 );
-
-createAppAndWindow({ id: "bio", title: "Personal Bio", contentHTML: `
-<div id="inBio" class="inWindow">
-	<div id="primaryBio" class="aero">
-	<div id="profileDiv"></div>
-	<span>Jackson D. Reicherts<br>Born August 10th, 2009<br>Graduates High School in June of 2027<br>Personal Email and Phone #:<br>reicherts.j@protonmail.com<br>& +1 507-321-9945</span>
-	</div>
-	<div id="secondaryBio" class="aero"><span>Halo! Including direct phonetic spellings, I just greeted you in around sixteen, primarily Germanic, Austronesian, and Celtic, languages!<br>I love to read, write, garden, play piano, and speak-out-against/correct mis-/disinformation using fancy-Ciceronian-rhetoric!<br>If you have any further inquiry, be sure to contact me through text or email.</span></div>
-	<div id="bioLibrary">
-	<div id="libraryLabel">Library</div>
-	<div id="contentLabel">Display</div>
-	<div id="libraryContent">
-	</div>
-	<div id="libraryDisplay">
-	<div class="libraryDisplayItem"></div>
-	</div>
-	</div>
-</div>`, iconId: "bioIcon", appLocation: "fileExplorerAppGrid", windowLocation: "webContainer" });
 createAppAndWindow({ id: "settings", title: "Settings", contentHTML: `<div id="inSettings" class="inWindow"><p class="title">Device Theme</p><div id="colorExample"><div class="colorExample" id="primaryColor"></div><div class="colorExample" id="secondaryColor"></div></div><div id="HSLbar" class="bar"><div id="HSLslider" class="slider"></div></div><input maxlength="3" value='220' placeholder='220' id='themeInput'></input><p class="title">Translate Essays</p><select id="languageSelect"><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="it">Italiano</option><option value="pt">Português</option><option value="nl">Nederlands</option><option value="pl">Polski</option><option value="ru">Русский</option><option value="ja">日本語</option><option value="zh">中文</option><option value="ko">한국어</option></select></div>`, iconId: null, appLocation: "webBg", windowLocation: "webContainer" });
 const mp3PlayerHTML = `
 <div id ="mp3Window">
@@ -547,6 +529,23 @@ const mp3PlayerHTML = `
 	</div>
 `;
 createAppAndWindow({ id: "music", title: "Mp3 Player", contentHTML: mp3PlayerHTML, iconId:'mp3_icon', appLocation: 'appGrid', windowLocation: 'webContainer' });
+createAppAndWindow({ id: "bio", title: "pers._bio.txt", contentHTML: `
+<div id="inBio" class="inWindow">
+	<div id="primaryBio" class="aero">
+	<div id="profileDiv"></div>
+	<span>Jackson D. Reicherts<br>Born August 10th, 2009<br>Graduates High School in June of 2027<br>Personal Email and Phone #:<br>reicherts.j@protonmail.com<br>& +1 507-321-9945</span>
+	</div>
+	<div id="secondaryBio" class="aero"><span>Halo! Including direct phonetic spellings, I just greeted you in around sixteen, primarily Germanic, Austronesian, and Celtic, languages!<br>I love to read, write, garden, play piano, and speak-out-against/correct mis-/disinformation using fancy-Ciceronian-rhetoric!<br>If you have any further inquiry, be sure to contact me through text or email.</span></div>
+	<div id="bioLibrary">
+	<div id="libraryLabel">Library</div>
+	<div id="contentLabel">Display</div>
+	<div id="libraryContent">
+	</div>
+	<div id="libraryDisplay">
+	<div class="libraryDisplayItem"></div>
+	</div>
+	</div>
+</div>`, iconId: "paperIcon", appLocation: "appGrid", windowLocation: "webContainer" });
 
 const refreshPage = document.getElementById('refreshPage');
 if (refreshPage) {
@@ -745,8 +744,8 @@ function addToStartMenu(windowId, title) {
 	document.getElementById("appBar").appendChild(entry);
 }
 
-['bioContainer', 'linksContainer', 'papersContainer', 'FileExplorerContainer'].forEach(id => {
-	const titles = { bioContainer: 'Personal Bio', linksContainer: 'Links and Socials', papersContainer: 'Essays and Papers', FileExplorerContainer: 'File Explorer' };
+['bioContainer', 'musicContainer', 'codeContainer', 'FileExplorerContainer'].forEach(id => {
+	const titles = { bioContainer: 'Personal Bio', musicContainer: 'Mp3 Player', codeContainer: 'Web Browser', FileExplorerContainer: 'File Explorer' };
 	addToStartMenu(id, titles[id]);
 });
 
@@ -858,20 +857,20 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy some German pessimism; whether I would consider myself a pessimist is a different question.`
 	);
 	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the megalos magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, is my current favorite piece of literature. Following are (top 3):<br>
-		2. Infinite Jest and<br>
-		3. Death Note.<br>
+		Infinite Jest<br>
+		and Death Note.<br>
 		I have written short pieces on <i>House of Leaves</i> and <i>Death Note</i>, though they are already quite dated, so I may rewrite them. Very soon I would like to work on an <i>Infinite Jest</i> piece, but that would be a project constituting minimally six months.<br>I have limited the list to only three because (1) I would like to exclude philosophy from this list and (2) distinguishing favorites after these few is very difficult: e.g., I love the Divine Comedy series, but do I really like it more than The Iliad? It also feels too conformist to place classic literature in a Top-Ten-List (along with Orwell, for some reason; almost as if pronouncing "I like Orwell" somehow defeats the purpose of liking Orwell).`
 	);
 	createLibraryContent('fav. plants', `Recently, I have picked up gardening as a new hobby, and it has been quite fulfilling. I still have much to learn and am perhaps more of a greenhorn than green-thumbed. Clean-green puns aside, my favorite plants are as follows (top 5):<br>
 		Venus Fly Traps,<br>
 		Spider Plants,<br>
 		Basil,<br>
-		Weeping Willow Trees, and<br>
-		Lilies of the Valley.<br>
+		Weeping Willow Trees,<br>
+		and Lilies of the Valley.<br>
 		Apart from the distinctiveness of Venus Fly Traps--e.g., they are carnivorous!--they were my first houseplant.<br>
 		This list is hardly definitive, however, as nearly any native species of flower to Minnesota is guaranteed to be a favorite of mine.`
 	);
-	createLibraryContent('fav. words', `I love words! And because of this, I have thought of my Top-Five-Favorite-Words. They are as follows:<br>
+		createLibraryContent('fav. words', `I love words! And because of this, I have thought of my Top-Five-Favorite-Words. They are as follows:<br>
 		1. Umwelt,<br>
 		2. Unheimlich,<br>
 		3. Archipelago,<br>
