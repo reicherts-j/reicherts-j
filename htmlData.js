@@ -3106,7 +3106,6 @@ console.log("working");})
     HTML: `<div class="CURSOR"></div>
 
 <div id='calcDiv'>
-	<div id="fireworkContainer"></div>
 	<div id='answerContainer'><span id="blinker">|</span>
 </div>
 	<div id='keyContainer'>
@@ -3246,7 +3245,7 @@ body {
 	background: #ffd280;
 }
 	
-@keyframes raveClear {
+@keyframes rbClear {
 	0% {
 		background-color: #ff00ff;
 		color: white;
@@ -3276,40 +3275,8 @@ body {
 	}
 }
 
-.raveAnimation {
-	animation: raveClear 0.7s ease-in-out forwards;
-}
-
-#fireworkContainer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	overflow: hidden;
-	z-index: 999;
-}
-
-.firework {
-	position: absolute;
-	width: 6px;
-	height: 6px;
-	border-radius: 50%;
-	background-color: #fff;
-	opacity: 1;
-	animation: explode 0.8s ease-out forwards;
-}
-
-@keyframes explode {
-	0% {
-		transform: translate(0, 0) scale(1);
-		opacity: 1;
-	}
-	100% {
-		transform: translate(var(--x), var(--y)) scale(0.5);
-		opacity: 0;
-	}
+.rbAnimation {
+	animation: rbClear 0.7s ease-in-out forwards;
 }
 
 #blinker {
@@ -3401,7 +3368,6 @@ keyDecimal.addEventListener('click', (e) => {
 keyEquals.addEventListener('click', (e) => {
 	if (argumentStr) {
 		const answerStr = eval(argumentStr);
-		createFireworkEffect();
 		argumentStr = answerStr.toString();
 		changeAnswerContents(answerStr.toString());
 	}
@@ -3409,11 +3375,11 @@ keyEquals.addEventListener('click', (e) => {
 
 keyAC.addEventListener('click', (e) => {
 	if (argumentStr) {
-		answerContainer.classList.add('raveAnimation');
+		answerContainer.classList.add('rbAnimation');
 		setTimeout(() => {
 			argumentStr = '';
 			changeAnswerContents(argumentStr);
-			answerContainer.classList.remove('raveAnimation');
+			answerContainer.classList.remove('rbAnimation');
 			answerContainer.innerHTML = '...';
 		}, 700);
 	}
@@ -3473,31 +3439,6 @@ function handleTypingActivity() {
 		const blinker = document.getElementById("blinker");
 		if (blinker) blinker.classList.remove("typing");
 	}, blinkDelay);
-}
-
-function createFireworkEffect() {
-	const amountOfParticles = 50;
-	const fireworkContainer = document.getElementById('fireworkContainer');
-
-	for (let i = 0; i < amountOfParticles; i++) {
-		const particle = document.createElement('div');
-		particle.classList.add('firework');
-
-		const x = (Math.random() - 0.5) * 500 + 'px';
-		const y = (Math.random() - 0.5) * 500 + 'px';
-
-		particle.style.setProperty('--x', x);
-		particle.style.setProperty('--y', y);
-		particle.style.left = '50%';
-		particle.style.top = '50%';
-		particle.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 70%)`;
-
-		fireworkContainer.appendChild(particle);
-
-		setTimeout(() => {
-			particle.remove();
-		}, 800);
-	}
 }
 
 document.addEventListener('keydown', function(e) {
