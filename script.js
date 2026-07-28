@@ -126,7 +126,23 @@ document.addEventListener("click", (e) => {
 	const clickedWindow = e.target.closest(".window");
 	if (clickedWindow) focusWindow(clickedWindow);
 });
+let app_fail = 0;
+let user_know = false;
+document.addEventListener("click", (e)=> {
+	const app = e.target.closest(".app");
+	if (!app) return;
+	const targetId = app.dataset.target;
+	if (!targetId) return;
 
+	const el = document.getElementById(targetId);
+	if (!el || (el.style.display !== "none" && el.style.display !== "")) return;
+
+	app_fail++;
+	if (app_fail >= 3 && !user_know) {
+		alert('To open folders and applications, you must double click :]')
+		user_know = true;
+	}
+});
 document.addEventListener("dblclick", (e) => {
 	const app = e.target.closest(".app");
 	if (!app) return;
@@ -156,10 +172,10 @@ document.addEventListener("dblclick", (e) => {
 			el.style.top = '0px';
 			el.style.bottom = '0px';
 		}
+		user_know = true;
 		openWindow(el);
 	}
 });
-
 function createTab(windowEl) {
 	const id = windowEl.id;
 	const windowTitle = windowEl.querySelector('.window-title').textContent.trim();
