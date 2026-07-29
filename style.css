@@ -1,6 +1,7 @@
 :root {
 	--width: 1100px;
 	--pfp: url("pfp.jpg");
+	--windowsProfileIcon: url("profileIcon.png");
 	--app-hue: calc(var(--hue) + 280);
 	font-size: 4px;
 	--alphaPercent: calc(var(--alpha) * 1%);
@@ -1208,7 +1209,7 @@ span {
 	border-top-left-radius: 0;
 }
 #profilePicture {
-	background-image: var(--pfp);
+	background-image: var(--windowsProfileIcon);
 	background-size: cover;
 	background-position: center;
 	grid-area: pfp;
