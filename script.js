@@ -869,8 +869,8 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		2. Peter Wessel Zapffe,<br>
 		3. Giacomo Leopardi,<br>
 		4. Julius Bahnsen, and<br>
-		5. Arthur Schopenhauer.<br>
-		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy some German pessimism; whether I would consider myself a pessimist is a different question.`
+		5. Albert Camus.<br>
+		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy pessimism; whether I would consider myself a pessimist is a different question.`
 	);
 	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the megalos magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, is my current favorite piece of literature. Following are (top 3):<br>
 		Infinite Jest<br>
