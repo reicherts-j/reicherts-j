@@ -582,7 +582,7 @@ by Damien - Thursday, June 4, 2026, 5:54 PM
 
 Hi Jackson! I found your post very interesting to read through, especially in light of previous discussion forums. I do not mean to attack your beliefs, but provide some food for thought on at least one of your arguments. On your first point, God being both omnipotent and omnipresent is not actually contradictory, although it is difficult to understand. The two concepts are actually complementary because God can only be present in time if there is time. In addition, God's omnipresence does not limit His existence. To be omnipresent is to be unbound to any restrictions of time or space. Thus, God exists in everything and fluidly moves through time and space in an infinite manner. I do want to say that these truths are very difficult to understand and no human mind can completely grasp and understand them, which is why it requires faith to believe such substantial claims. Thus, if you are contemplating the existence of a god, I would start with fundamental scientific truths that undoubtedly lead to the existence of a creator. I recommend the works Aristotle and Thomas Aquinas as they provide simple and logical arguments for God's existence. In fact, in many of Aquinas's works, such as the Summa Theologica, he states a truth and then walks through the greatest counterarguments, picking them apart. Great job on your post, and I am excited read more of your posts in the next few weeks.
 
-In reply to Damien Smith
+In reply to Damien
 
 by Jackson Reicherts - Thursday, June 4, 2026, 9:26 PM
 
