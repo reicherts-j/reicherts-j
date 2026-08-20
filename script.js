@@ -877,7 +877,7 @@ document.getElementById("bioApp").addEventListener('dblclick', () => {
 		3. Walden,<br>
 		4. Infinite Jest, and<br>
 		5. The God Delusion.<br>
-	I wrote a short piece on Death Note a while ago, motivated by my love of its characters and plot. It is dated now, however, and I will likely rewrite it soon.<br>
+	I wrote a short piece on <i>Death Note</i> a while ago, motivated by my love of its characters and plot. It is dated now, however, and I will likely rewrite it soon.<br>
 I have excluded philosophy books from this list. I do not necessarily consider <i>Walden</i> a work of philosophy, although that is admittedly a matter of interpretation. I may create a separate section dedicated to philosophy at some point.`
 
 	);
