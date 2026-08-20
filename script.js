@@ -866,16 +866,20 @@ function renderGroupedGrid(data, containerId, isAppGrid) {
 document.getElementById("bioApp").addEventListener('dblclick', () => {
 	createLibraryContent('fav. philosophers', `Though not especially original as a philosopher, Marcus Tullius Cicero remains my favorite.<br>
 		The rest are as follows (top 5):<br>
-		2. Peter Wessel Zapffe,<br>
-		3. Giacomo Leopardi,<br>
-		4. Julius Bahnsen, and<br>
-		5. Albert Camus.<br>
-		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy pessimism; whether I would consider myself a pessimist is a different question.`
+		2. Peter Zapffe,<br>
+		3. Julius Bahnsen,<br>
+		4. Albert Camus, and<br>
+		5. Henry Thoreau.<br>
+		To reduce overthinking, I wrote these as quickly as possible.<br>Regardless, I'm sure it is clear (if you are familiar w/ any of these individuals) that I enjoy pessimism; whether I would consider myself a pessimist is a difficult question.`
 	);
-	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, the megalos magnum opus spawned from <i>The Navidson Record</i> and Zampanò, the <i>House of Leaves</i>, is my current favorite piece of literature. Following are (top 3):<br>
-		Infinite Jest<br>
-		and Death Note.<br>
-		I have written short pieces on <i>House of Leaves</i> and <i>Death Note</i>, though they are already quite dated, so I may rewrite them. Very soon I would like to work on an <i>Infinite Jest</i> piece, but that would be a project constituting minimally six months.<br>I have limited the list to only three because (1) I would like to exclude philosophy from this list and (2) distinguishing favorites after these few is very difficult: e.g., I love the Divine Comedy series, but do I really like it more than The Iliad? It also feels too conformist to place classic literature in a Top-Ten-List (along with Orwell, for some reason; almost as if pronouncing "I like Orwell" somehow defeats the purpose of liking Orwell).`
+	createLibraryContent('fav. books', `Whether it is truly nonfiction or not, <i>House of Leaves</i>--the magnum opus surrounding <i>The Navidson Record</i> and written by Zampanò--is currently my favorite work of literature. Following are (top 5):<br>
+		2. Death Note,<br>
+		3. Walden,<br>
+		4. Infinite Jest, and<br>
+		5. The God Delusion.<br>
+	I wrote a short piece on Death Note a while ago, motivated by my love of its characters and plot. It is dated now, however, and I will likely rewrite it soon.<br>
+I have excluded philosophy books from this list. I do not necessarily consider <i>Walden</i> a work of philosophy, although that is admittedly a matter of interpretation. I may create a separate section dedicated to philosophy at some point.`
+
 	);
 	createLibraryContent('fav. plants', `Recently, I have picked up gardening as a new hobby, and it has been quite fulfilling. I still have much to learn and am perhaps more of a greenhorn than green-thumbed. Clean-green puns aside, my favorite plants are as follows (top 5):<br>
 		Venus Fly Traps,<br>
